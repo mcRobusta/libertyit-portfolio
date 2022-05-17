@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <!--
       <vs-row v-for="component in this.componentDataList" :key="component.id">
         <vs-col vs-type="flex" vs-justify="left" vs-align="left" vs-w="1">
           <router-link :to="'/' + component.id">
@@ -10,6 +11,8 @@
       </vs-row>
     </div>
     <router-view/>
+    -->
+    </div>
     This page is currently undergoing maintainance, please check back later!
   </div>
 </template>
